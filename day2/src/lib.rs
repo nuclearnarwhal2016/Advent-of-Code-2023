@@ -10,9 +10,10 @@
 // A, X => draw
 // A, Y => lose 
 // A, Z => win
-// 
-pub fn win_or_lose(first: &str, second: &str) -> bool {
-    false
+// 97  98   99
+// 120  121  122
+pub fn win_or_lose(first: &str, second: &str) -> u32 {
+    unimplemented!()
 }
 
 pub fn part_one(input: &str) -> String {
